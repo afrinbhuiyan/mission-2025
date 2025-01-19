@@ -1,0 +1,137 @@
+@media screen and (max-width: 576px) {
+  .banner {
+    flex-direction: column;
+    margin: 50px 20px;
+    gap: 50px;
+  }
+  .banner-left h1 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .banner-left p {
+    font-size: 15px;
+  }
+  .banner-right img {
+    width: 300px;
+  }
+  .banner-left p {
+    width: 100%;
+    margin-left: 20px;
+  }
+  .line {
+    height: 80px;
+    margin: auto 10px auto 20px;
+  }
+  .banner-left button {
+    margin-left: 20px;
+  }
+  .banner-left h5 {
+    margin: 20px;
+    font-size: 12px;
+  }
+  .mission-section h1 {
+    font-size: 42px;
+  }
+  .mission-container {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card {
+    width: 280px;
+    margin: 0 auto;
+  }
+  .develop-limits {
+    flex-direction: column;
+    margin: 10px;
+  }
+  .develop-content h1 {
+    font-size: 28px;
+    line-height: 44px;
+    text-align: center;
+  }
+  .develop-content p {
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .coding-img {
+    background-size: 120px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .coding-img img {
+    width: 200px;
+    height: 200px;
+  }
+  .develop-content {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .global-community {
+    flex-direction: column;
+    margin: 50px 10px;
+  }
+  .community-img {
+    background-size: 120px;
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+  }
+  .community-img img {
+    width: 200px;
+    height: 200px;
+  }
+  .application-container h1 {
+    font-size: 38px;
+    line-height: 54px;
+  }
+  .container {
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+  }
+  .pictures {
+    width: 100%;
+    height: 600px;
+  }
+  .pictures img {
+    width: 300px;
+    height: 550px;
+    margin-right: 15px;
+    margin-top: 50px;
+  }
+  .application-content {
+    width: calc(100% - 20px);
+    margin: 0 auto;
+  }
+  .application-content h1 {
+    font-size: 38px;
+  }
+  footer {
+    margin-top: 50px;
+  }
+  footer p {
+    font-size: 12px;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .banner {
+    /* gap: 90px;
+        margin: 82px 20px; */
+    flex-direction: column-reverse;
+  }
+  /* .banner-right img {
+        width: 100%;
+    } */
+  .banner-left h1 {
+    font-size: 50px;
+  }
+  .mission-container {
+    grid-template-columns: repeat(2, 1fr);
+    width: 400px;
+    justify-items: center;
+  }
+}
